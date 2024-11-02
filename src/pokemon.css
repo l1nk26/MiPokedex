@@ -21,7 +21,6 @@
 .ft-pokemon:hover img {
     animation: rotar 1s infinite;
 }
-
 .ft-pokemon span {
     align-content: center;
 }
