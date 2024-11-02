@@ -7,16 +7,35 @@
     display: flex;
     cursor: pointer;
     align-items: center;
-    place-content: center;
+    place-content: left;
     border-radius: 100px;
     background-color: #a49;
     height: 80px;
+    width: 300px;
     border: 1px solid green;
     content-visibility: auto;
 }
 .ft-pokemon:hover {
     background-color: rgb(185, 160, 19);
 }
+.ft-pokemon:hover img {
+    animation: rotar 1s infinite;
+}
+
 .ft-pokemon span {
     align-content: center;
+}
+@keyframes rotar {
+    0% {
+        transform: rotate(0deg);
+    }
+    40% {
+        transform: rotate(25deg);
+    }
+    70% {
+        transform: rotate(-25deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
 }

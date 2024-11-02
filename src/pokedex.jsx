@@ -3,7 +3,6 @@ import { useState, useEffect } from "react";
 
 const Pokedex = ({start, end}) => {
 
-
   const [pokemons, setPokemons] = useState([]);
   let loading = false;
   useEffect(() => {

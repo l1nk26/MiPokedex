@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import './App.css'
 import Pokedex from './pokedex.jsx'
+import './pokemon.css';
 
 function App() {
 
