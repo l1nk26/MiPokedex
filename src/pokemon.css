@@ -1,0 +1,21 @@
+.ft-pokedex {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.ft-pokemon {
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    place-content: center;
+    border-radius: 100px;
+    background-color: #a49;
+    height: 80px;
+    border: 1px solid green;
+}
+.ft-pokemon:hover {
+    background-color: rgb(185, 160, 19);
+}
+.ft-pokemon span {
+    align-content: center;
+}
