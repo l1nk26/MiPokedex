@@ -12,6 +12,7 @@
     background-color: #a49;
     height: 80px;
     border: 1px solid green;
+    content-visibility: auto;
 }
 .ft-pokemon:hover {
     background-color: rgb(185, 160, 19);
