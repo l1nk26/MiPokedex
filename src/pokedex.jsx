@@ -17,8 +17,10 @@ const Pokedex = ({start, end}) => {
       loading = true;
       if (window.innerHeight + window.scrollY >= document.body.offsetHeight - 100) {
         setPokemons((pokemons) => {
+          if (pokemons.length > 1025) return pokemons;
           const new_pokemons = [...pokemons];
           for (let i = 0; i < 20; i++) {
+            if (new_pokemons.length > 1025) return pokemons;
             new_pokemons.push(<Pokemon key={new_pokemons.length + 1} n={new_pokemons.length + 1}></Pokemon>);
           } 
           return new_pokemons;
