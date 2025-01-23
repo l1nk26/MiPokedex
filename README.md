@@ -12,6 +12,4 @@ npm run start
 npm run build
 
 # description
-'''
 Pokedex made with react and the framework vite  
-'''
